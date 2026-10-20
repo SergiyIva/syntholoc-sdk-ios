@@ -1,0 +1,1 @@
+{"protocolVersion":1,"distributionId":"dst_fixture","channel":"production","generation":12,"catalogVersion":"app-v1","release":{"id":"rel_fixture","manifestPath":"/ota/v1/distributions/dst_fixture/channels/production/releases/rel_fixture/manifest.json","sha256":"ff0e7913643397ecac87511ac9fd372a099f489bd44773d7dd430a3416c9efea","bytes":604},"recommendedCheckIntervalSeconds":900}
