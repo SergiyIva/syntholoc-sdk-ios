@@ -10,11 +10,11 @@ In Xcode, **Add Package Dependencies** using:
 https://github.com/SergiyIva/syntholoc-sdk-ios.git
 ```
 
-Select **Exact Version: 0.1.0** and add product `SyntholocOTA`.
+Select **Exact Version: 0.1.1** and add product `SyntholocOTA`.
 For SwiftUI, also add `SyntholocOTASwiftUI`.
 
 ```swift
-.package(url: "https://github.com/SergiyIva/syntholoc-sdk-ios.git", exact: "0.1.0")
+.package(url: "https://github.com/SergiyIva/syntholoc-sdk-ios.git", exact: "0.1.1")
 // In your target dependencies:
 .product(name: "SyntholocOTA", package: "syntholoc-sdk-ios")
 ```

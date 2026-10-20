@@ -9,11 +9,11 @@
 SDK распространяются публично и не требуют доступа к приватному проекту Syntholoc,
 GitHub-аккаунта или токена для скачивания. Нативные пакеты не связаны с npm:
 
-- Android: готовые Maven-артефакты `com.syntholoc:ota:0.1.0` и
-  `com.syntholoc:ota-compose:0.1.0`, исходники и теги в
+- Android: готовые Maven-артефакты `com.syntholoc:ota:0.1.1` и
+  `com.syntholoc:ota-compose:0.1.1`, исходники и теги в
   [syntholoc-sdk-android](https://github.com/SergiyIva/syntholoc-sdk-android).
 - iOS: SwiftPM из [syntholoc-sdk-ios](https://github.com/SergiyIva/syntholoc-sdk-ios),
-  продукты `SyntholocOTA` и `SyntholocOTASwiftUI`, версия `0.1.0`.
+  продукты `SyntholocOTA` и `SyntholocOTASwiftUI`, версия `0.1.1`.
 - Новые версии SDK публикуются автоматически при изменениях SDK в основном проекте.
   Приложение явно обновляет закреплённую версию зависимости.
 
@@ -79,10 +79,10 @@ dependencyResolutionManagement {
 
 ```kotlin
 dependencies {
-    implementation("com.syntholoc:ota:0.1.0")
+    implementation("com.syntholoc:ota:0.1.1")
 
     // Если используется Compose:
-    implementation("com.syntholoc:ota-compose:0.1.0")
+    implementation("com.syntholoc:ota-compose:0.1.1")
 }
 ```
 
@@ -195,14 +195,14 @@ Text(
 https://github.com/SergiyIva/syntholoc-sdk-ios.git
 ```
 
-Выбрать **Exact Version: 0.1.0**. Подключить продукт `SyntholocOTA`;
+Выбрать **Exact Version: 0.1.1**. Подключить продукт `SyntholocOTA`;
 для SwiftUI дополнительно `SyntholocOTASwiftUI`. Вход в GitHub не нужен.
 
 Для проекта с `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/SergiyIva/syntholoc-sdk-ios.git", exact: "0.1.0")
+    .package(url: "https://github.com/SergiyIva/syntholoc-sdk-ios.git", exact: "0.1.1")
 ]
 // В dependencies нужного target:
 // .product(name: "SyntholocOTA", package: "syntholoc-sdk-ios")

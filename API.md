@@ -2,8 +2,8 @@
 
 ## Android
 
-Install the public Maven artifacts `com.syntholoc:ota:0.1.0` and optional
-`com.syntholoc:ota-compose:0.1.0` from
+Install the public Maven artifacts `com.syntholoc:ota:0.1.1` and optional
+`com.syntholoc:ota-compose:0.1.1` from
 `https://raw.githubusercontent.com/SergiyIva/syntholoc-sdk-android/maven`.
 No credentials or private repository access are needed. See the
 [mobile quickstart](INTEGRATION_RU.md) for Gradle configuration.
@@ -66,7 +66,7 @@ Device tests exercise styled Resources, XML inflation and actual Compose activat
 ## Apple
 
 Add `https://github.com/SergiyIva/syntholoc-sdk-ios.git` in Xcode / SwiftPM,
-version `0.1.0`, products `SyntholocOTA` and optionally `SyntholocOTASwiftUI`.
+version `0.1.1`, products `SyntholocOTA` and optionally `SyntholocOTASwiftUI`.
 The repository is public; no GitHub login is required. Minimum iOS 15 / macOS 12,
 Swift tools 5.9. The actor owns network refresh state and app-private atomic cache files.
 Use the explicit provider; no Bundle method replacement is performed. Core tests and
